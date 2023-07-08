@@ -170,3 +170,33 @@ main section{
     text-align: center;
     margin-top: 50px;
 }
+
+/* footer style ----- */
+
+footer{
+    display: flex;
+    gap:100px;
+    background: #FFF8F3;
+    margin-top: 80px;
+    padding:130px 200px;
+}
+.footer-column{
+    width:50%;
+}
+.contact input,textarea{
+    display: block;
+    margin-bottom: 25px;
+    padding:18px 35px;
+    color:#757575;
+    border:none;
+    border-radius: 5px;
+    width:100%;
+    resize: none;
+    outline-color:#fd6f0a5b;
+}
+footer .social-links img{
+    margin-right:20px;
+}
+footer .footer-column .foot-desc{
+    text-align: justify;
+}
