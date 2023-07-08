@@ -20,7 +20,7 @@
 }
 
 
-/* end ------- */
+/* nav related styles ------- */
 
 
 
@@ -28,6 +28,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin:0 200px;
 }
 nav .nav-title{
     font-family: 'Open Sans', sans-serif;
@@ -44,4 +45,14 @@ nav li{
 }
 nav li a{
     text-decoration: none;
+}
+
+
+/* header related styles ------ */
+
+header{
+    background-color: #fff8f3;
+}
+.banner{
+    padding:30px 30px 30px 150px;
 }
